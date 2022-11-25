@@ -936,7 +936,7 @@ postgresql:
 ## @param externalDatabase.existingSecretPasswordKey Name of an existing secret key containing the database credentials
 ##
 externalDatabase:
-  host: "10.36.9.102"
+  host: "shared-postgresql.atos-integracam.int"
   port: 6432
   user: devops
   database: keycloak
